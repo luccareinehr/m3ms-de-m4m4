@@ -20,8 +20,8 @@ v3 inAC1 gnd sine(0 1m 500k)
 v4 inAC2 gnd sine(0 -1m 500k)
 
 * High-pass filter
-C1 out2 out3 100n
-R3 out3 gnd 5k
+C1 out2 out3 10n
+R3 out3 gnd 50k
 
 * Buffer
 X2 vss vdd gnd out4 out3 out4 asvd_opamp
